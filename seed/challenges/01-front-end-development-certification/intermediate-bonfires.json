@@ -246,8 +246,8 @@
       "id": "afd15382cdfb22c9efe8b7de",
       "title": "DNA Pairing",
       "description": [
-        "The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array.",
-        "<a href=\"http://en.wikipedia.org/wiki/Base_pair\" target=\"_blank\">Base pairs</a> are a pair of AT and CG. Match the missing element to the provided character.",
+        "DNA 链缺少配对的碱基。依据每一个碱基，为其找到配对的碱基，然后将结果作为第二个数组返回。",
+        "<a href=\"http://en.wikipedia.org/wiki/Base_pair\" target=\"_blank\">Base pairs（碱基对）</a> 是一对 AT 和 CG. Match the missing element to the provided character.",
         "Return the provided character as the first element in each array.",
         "For example, for the input GCG, return [[\"G\", \"C\"], [\"C\",\"G\"],[\"G\", \"C\"]]",
         "The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.",
