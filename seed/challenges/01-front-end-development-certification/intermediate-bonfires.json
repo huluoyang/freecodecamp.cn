@@ -280,9 +280,9 @@
       "id": "af7588ade1100bde429baf20",
       "title": "Missing letters",
       "description": [
-        "Find the missing letter in the passed letter range and return it.",
-        "If all letters are present in the range, return undefined.",
-        "Remember to use <a href='//github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck' target='_blank'>Read-Search-Ask</a> if you get stuck. Try to pair program. Write your own code."
+        "从传递进来的字母序列中找到缺失的字母并返回它。",
+        "如果所有字母都在序列中，返回 undefined。",
+        "如果你被卡住了，记得开大招 <a href='//github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck' target='_blank'>Read-Search-Ask</a> 。试着与他人配对编程。编写你自己的代码。"
       ],
       "challengeSeed": [
         "function fearNotLetter(str) {",
@@ -295,10 +295,10 @@
         "function fearNotLetter(str) {\n  var s = str.split('').map(function(c) {return c.charCodeAt(0);});\n  for (var i = 1; i < s.length; i++) {\n    if (s[i]-1 != s[i-1]) {\n      return String.fromCharCode(s[i]-1);\n    }\n  }\n}"
       ],
       "tests": [
-        "assert.deepEqual(fearNotLetter(\"abce\"), \"d\", 'message: <code>fearNotLetter(\"abce\")</code> should return \"d\".');",
-        "assert.deepEqual(fearNotLetter(\"abcdefghjklmno\"), \"i\", 'message: <code>fearNotLetter(\"abcdefghjklmno\")</code> should return \"i\".');",
-        "assert.isUndefined(fearNotLetter(\"bcd\"), 'message: <code>fearNotLetter(\"bcd\")</code> should return undefined.');",
-        "assert.isUndefined(fearNotLetter(\"yz\"), 'message: <code>fearNotLetter(\"yz\")</code> should return undefined.');"
+        "assert.deepEqual(fearNotLetter(\"abce\"), \"d\", 'message: <code>fearNotLetter(\"abce\")</code> 应该返回 \"d\"。');",
+        "assert.deepEqual(fearNotLetter(\"abcdefghjklmno\"), \"i\", 'message: <code>fearNotLetter(\"abcdefghjklmno\")</code> 应该返回 \"i\"。');",
+        "assert.isUndefined(fearNotLetter(\"bcd\"), 'message: <code>fearNotLetter(\"bcd\")</code> 应该返回 undefined。');",
+        "assert.isUndefined(fearNotLetter(\"yz\"), 'message: <code>fearNotLetter(\"yz\")</code> 应该返回 undefined。');"
       ],
       "type": "bonfire",
       "MDNlinks": [
