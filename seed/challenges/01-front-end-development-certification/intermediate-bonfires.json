@@ -312,9 +312,9 @@
       "id": "a77dbc43c33f39daa4429b4f",
       "title": "Boo who",
       "description": [
-        "Check if a value is classified as a boolean primitive. Return true or false.",
-        "Boolean primitives are true and false.",
-        "Remember to use <a href='//github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck' target='_blank'>Read-Search-Ask</a> if you get stuck. Try to pair program. Write your own code."
+        "查检一个值是否是基本布尔类型，并返回 true 或 false。",
+        "基本布尔类型即 true 和 false。",
+        "如果你被卡住了，记得开大招 <a href='//github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck' target='_blank'>Read-Search-Ask</a> 。试着与他人配对编程。编写你自己的代码。"
       ],
       "challengeSeed": [
         "function boo(bool) {",
@@ -328,16 +328,16 @@
         "function boo(bool) {\n  // What is the new fad diet for ghost developers? The Boolean.\n  return typeof bool === \"boolean\";\n}\n\nboo(null);"
       ],
       "tests": [
-        "assert.strictEqual(boo(true), true, 'message: <code>boo(true)</code> should return true.');",
-        "assert.strictEqual(boo(false), true, 'message: <code>boo(false)</code> should return true.');",
-        "assert.strictEqual(boo([1, 2, 3]), false, 'message: <code>boo([1, 2, 3])</code> should return false.');",
-        "assert.strictEqual(boo([].slice), false, 'message: <code>boo([].slice)</code> should return false.');",
-        "assert.strictEqual(boo({ \"a\": 1 }), false, 'message: <code>boo({ \"a\": 1 })</code> should return false.');",
-        "assert.strictEqual(boo(1), false, 'message: <code>boo(1)</code> should return false.');",
-        "assert.strictEqual(boo(NaN), false, 'message: <code>boo(NaN)</code> should return false.');",
-        "assert.strictEqual(boo(\"a\"), false, 'message: <code>boo(\"a\")</code> should return false.');",
-        "assert.strictEqual(boo(\"true\"), false, 'message: <code>boo(\"true\")</code> should return false.');",
-        "assert.strictEqual(boo(\"false\"), false, 'message: <code>boo(\"false\")</code> should return false.');"
+        "assert.strictEqual(boo(true), true, 'message: <code>boo(true)</code> 应该返回 true。');",
+        "assert.strictEqual(boo(false), true, 'message: <code>boo(false)</code> 应该返回 true。');",
+        "assert.strictEqual(boo([1, 2, 3]), false, 'message: <code>boo([1, 2, 3])</code> 应该返回 false。');",
+        "assert.strictEqual(boo([].slice), false, 'message: <code>boo([].slice)</code> 应该返回 false。');",
+        "assert.strictEqual(boo({ \"a\": 1 }), false, 'message: <code>boo({ \"a\": 1 })</code> 应该返回 false。');",
+        "assert.strictEqual(boo(1), false, 'message: <code>boo(1)</code> 应该返回 false。');",
+        "assert.strictEqual(boo(NaN), false, 'message: <code>boo(NaN)</code> 应该返回 false。');",
+        "assert.strictEqual(boo(\"a\"), false, 'message: <code>boo(\"a\")</code> 应该返回 false。');",
+        "assert.strictEqual(boo(\"true\"), false, 'message: <code>boo(\"true\")</code> 应该返回 false。');",
+        "assert.strictEqual(boo(\"false\"), false, 'message: <code>boo(\"false\")</code> 应该返回 false。');"
       ],
       "type": "bonfire",
       "MDNlinks": [
